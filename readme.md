@@ -29,3 +29,9 @@ pre-commit install
 ```bash
 pre-commit run --all-files
 ```
+
+# Actions
+To add dependencies to requirements.txt:
+```bash
+pipreqs . --force
+```
